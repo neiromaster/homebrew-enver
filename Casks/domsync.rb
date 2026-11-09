@@ -4,21 +4,21 @@ cask "domsync" do
 
   on_macos do
     on_arm do
-      sha256 "c7fdb4f82c1a549c9424d3e9945562b7846361992a3823528f5b2b41e0234e02"
+      sha256 "3638537477ffa0aa0774941608e1779711c38d88d1efee1051b8cb97c7a1c202"
       url "https://github.com/neiromaster/domsync/releases/download/v#{version}/domsync_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "29f38038ab198e65d6d9cc36eea1162f567bcd883de4d248901dacf1e5456bb2"
+      sha256 "c64b0f2b443b6adaf4f9c47e736d73cd7c39c3e4e7effd3117395299924c3234"
       url "https://github.com/neiromaster/domsync/releases/download/v#{version}/domsync_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "45edcb854204110c71ebec1cccf22b81d5f771a703d835e6632fd045e37a9829"
+      sha256 "be589a2250e0a33033d46443fbf41114e79acd0c619acdcafc1d14120df6ee15"
       url "https://github.com/neiromaster/domsync/releases/download/v#{version}/domsync_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "a2ca5a4b91bfcf07ff1d08126c0586c4e16c8777276901afce5bc9b2cf9bec22"
+      sha256 "9f89ebbc1cb08c82b631eeecf0857d4fe39694ee09e9cf4e427aee5a98ada8ea"
       url "https://github.com/neiromaster/domsync/releases/download/v#{version}/domsync_#{version}_linux_amd64.tar.gz"
     end
   end
